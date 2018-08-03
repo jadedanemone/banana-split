@@ -131,7 +131,7 @@ class VideoService {
 			'-i', '"' + file + '"',
 			'-t', (end - start),
 			'-acodec', 'copy',
-			'-vcodec', 'libx264',
+			'-vcodec', 'copy',
 			'-y',
 			'"' + filePath + '/' + outputFile + '"',
 		]
